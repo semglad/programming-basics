@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "conditional-statements", "conditional-statements\conditional-statements.csproj", "{A9AA43D3-2281-4D31-8D00-1412E05431A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "conditional-statements", "conditional-statements\conditional-statements.csproj", "{A9AA43D3-2281-4D31-8D00-1412E05431A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "conditional-statements3", "conditional-statements3\conditional-statements3.csproj", "{25542902-7177-4150-B7C3-B8E1B38F23DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "conditional-statements3", "conditional-statements3\conditional-statements3.csproj", "{25542902-7177-4150-B7C3-B8E1B38F23DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "conditional-statements4", "conditional-statements4\conditional-statements4.csproj", "{AF36E331-3664-43C5-A397-820D2AA7D5B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "conditional-statements4", "conditional-statements4\conditional-statements4.csproj", "{AF36E331-3664-43C5-A397-820D2AA7D5B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "conditional-statements5", "conditional-statements5\conditional-statements5.csproj", "{29EE2432-E00C-4D88-B244-7B7CD819D483}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "conditional-statements5", "conditional-statements5\conditional-statements5.csproj", "{29EE2432-E00C-4D88-B244-7B7CD819D483}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "loops1", "loops1\loops1.csproj", "{9D46F38E-1662-4411-950F-785E3EDAC05B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{29EE2432-E00C-4D88-B244-7B7CD819D483}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29EE2432-E00C-4D88-B244-7B7CD819D483}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29EE2432-E00C-4D88-B244-7B7CD819D483}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D46F38E-1662-4411-950F-785E3EDAC05B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D46F38E-1662-4411-950F-785E3EDAC05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D46F38E-1662-4411-950F-785E3EDAC05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D46F38E-1662-4411-950F-785E3EDAC05B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
