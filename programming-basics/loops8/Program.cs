@@ -10,8 +10,8 @@ namespace loops8
             // Create a new instance rnd of object Random.
             Random rnd = new Random();
 
-            // Loop through 20 lines
-            for (int i = 1; i <= 20; i++)
+            // Loop through 4 lines
+            for (int i = 1; i <= 4; i++)
             {
 
                 // Print out the row number
