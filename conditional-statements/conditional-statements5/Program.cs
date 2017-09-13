@@ -8,13 +8,14 @@ namespace conditional_statements5
         {
 
             // Prompt user for input
-            Console.WriteLine("Anna ikäsi numeroina:");
+            Console.Write("Kuinka vanha olet (numeroina): ");
 
             // Store user input to a variable
-            string userInput = Console.ReadLine().ToString();
+            string userInput1 = Console.ReadLine().ToString();
             int age;
             double discountPercent = 0;
-            int.TryParse(userInput, out age);
+            double discountPercent2 = 0;
+            int.TryParse(userInput1, out age);
             double initialPrice = 16;
             double price;
             int studentFlag = 0;
@@ -33,12 +34,12 @@ namespace conditional_statements5
             {
 
                // Prompt user for input (k/e)
-                Console.WriteLine("Oletko opiskelija (k/e)?");
+                Console.Write("\nOletko opiskelija (k/e)? ");
 
                // Store user input to a variable
-               userInput = Console.ReadKey().ToString();
+               var userInput = Console.ReadKey();
 
-                if (userInput == "k")
+                if (userInput.Key == ConsoleKey.K)
                 {
 
                     discountPercent = 0.45;
@@ -47,12 +48,12 @@ namespace conditional_statements5
                 }
 
                 // Prompt user for input (k/e)
-                Console.WriteLine("Oletko varusmies (k/e)?");
+                Console.Write("\nOletko varusmies (k/e)? ");
 
                 // Store user input to a variable
-                userInput = Console.ReadKey().ToString();
+                userInput = Console.ReadKey();
 
-                if (userInput == "k")
+                if (userInput.Key == ConsoleKey.K)
                 {
 
                     discountPercent = 0.50;
@@ -60,19 +61,19 @@ namespace conditional_statements5
                 }
 
                 // Prompt user for input (k/e)
-                Console.WriteLine("Oletko Mtk:n jäsen (k/e)?");
+                Console.Write("\nOletko Mtk:n jasen (k/e)? ");
 
                 // Store user input to a variable
-                userInput = Console.ReadKey().ToString();
+                userInput = Console.ReadKey();
 
-                if (userInput == "k")
+                if (userInput.Key == ConsoleKey.K)
                 {
 
                     if (studentFlag == 1)
                     {
 
-                        discountPercent = 0.45 * 0.15;
-
+                        discountPercent = 0.45;
+                        discountPercent2 = 0.15;
                     } else
                     {
 
@@ -87,7 +88,8 @@ namespace conditional_statements5
             }
 
             price = initialPrice - (initialPrice * discountPercent);
-            Console.WriteLine("Hinta on {0} euroa", price);
+            price = price - (price * discountPercent2);
+            Console.WriteLine("\n\nHinta on {0} euroa", price);
 
             // Wait for any key to be pressed before exiting
             Console.WriteLine("Press any key to continue...");
