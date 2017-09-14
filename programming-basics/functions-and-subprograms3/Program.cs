@@ -30,21 +30,20 @@ namespace functions_and_subprograms3
                 // Store user input to a variable
                 string userInput = Console.ReadLine().ToString();
 
-                // Parse user input into integer. If user 
-                double.TryParse(userInput, out number);
-
-                while ((number < minNumber) | (number > maxNumber))
+                // Parse user input into integer
+                while ((!double.TryParse(userInput, out number)) | (number < minNumber) | (number > maxNumber))
                 {
 
                     // Prompt user for input
-                    Console.WriteLine("\nLuku {0} ei ole valilta {1} ja {2}. Yrita edes! ", number, minNumber, maxNumber);
+                    Console.Clear();
+                    Console.WriteLine("{0} ei ole valilta {1} ja {2}. Yrita edes! ", userInput, minNumber, maxNumber);
                     Console.Write("Anna luku valilta {0} ja {1}: ", minNumber, maxNumber);
 
                     // Store user input to a variable
-                    string userInput2 = Console.ReadLine().ToString();
+                    userInput = Console.ReadLine().ToString();
 
                     // Parse user input into integer.
-                    double.TryParse(userInput2, out number);
+                    // double.TryParse(userInput, out number);
 
                 }
 
