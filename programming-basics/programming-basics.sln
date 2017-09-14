@@ -13,31 +13,33 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "conditional-statements5", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "loops1", "loops1\loops1.csproj", "{9D46F38E-1662-4411-950F-785E3EDAC05B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "loops2", "loops2\loops2.csproj", "{22BB0674-29C6-4CAC-AF8E-2C990C12E367}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "loops2", "loops2\loops2.csproj", "{22BB0674-29C6-4CAC-AF8E-2C990C12E367}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "loops3", "loops3\loops3.csproj", "{B3D547B4-DF63-44EF-ACAC-53AF4FE84E27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "loops3", "loops3\loops3.csproj", "{B3D547B4-DF63-44EF-ACAC-53AF4FE84E27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "loops4", "loops4\loops4.csproj", "{98C5643F-3A92-4296-BAF1-7D751734C373}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "loops4", "loops4\loops4.csproj", "{98C5643F-3A92-4296-BAF1-7D751734C373}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "loops5", "loops5\loops5.csproj", "{BCA4060D-C946-4374-969C-5D0DE0EF2EED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "loops5", "loops5\loops5.csproj", "{BCA4060D-C946-4374-969C-5D0DE0EF2EED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "loops6", "loops6\loops6.csproj", "{F352C299-2D06-4510-B432-A90F3EDCD008}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "loops6", "loops6\loops6.csproj", "{F352C299-2D06-4510-B432-A90F3EDCD008}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "loops7", "loops7\loops7.csproj", "{03CD1734-B254-4254-B471-B5B2705E5657}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "loops7", "loops7\loops7.csproj", "{03CD1734-B254-4254-B471-B5B2705E5657}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "loops8", "loops8\loops8.csproj", "{A726B00B-37BD-47E0-A057-69AFDB039714}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "loops8", "loops8\loops8.csproj", "{A726B00B-37BD-47E0-A057-69AFDB039714}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "loops9", "loops9\loops9.csproj", "{965B1DFC-3136-45E2-8C4D-8198F2741C91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "loops9", "loops9\loops9.csproj", "{965B1DFC-3136-45E2-8C4D-8198F2741C91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops10", "Loops10\Loops10.csproj", "{25FDCB03-9679-477C-B10E-EABF16C16B30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops10", "Loops10\Loops10.csproj", "{25FDCB03-9679-477C-B10E-EABF16C16B30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops11", "Loops11\Loops11.csproj", "{C592453F-6545-4A68-A9A0-0F5E391ECD30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops11", "Loops11\Loops11.csproj", "{C592453F-6545-4A68-A9A0-0F5E391ECD30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "functions-and-subprograms1", "functions-and-subprograms1\functions-and-subprograms1.csproj", "{F5E9E57F-B53A-4775-B783-83DA6D7CD5BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "functions-and-subprograms1", "functions-and-subprograms1\functions-and-subprograms1.csproj", "{F5E9E57F-B53A-4775-B783-83DA6D7CD5BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "functions-and-subprograms2", "functions-and-subprograms2\functions-and-subprograms2.csproj", "{57D0913A-BC42-4A21-8B78-0FAC563B97BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "functions-and-subprograms2", "functions-and-subprograms2\functions-and-subprograms2.csproj", "{57D0913A-BC42-4A21-8B78-0FAC563B97BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "functions-and-subprograms3", "functions-and-subprograms3\functions-and-subprograms3.csproj", "{548AB10D-9C17-4B15-B05E-AF470F5B537D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "functions-and-subprograms3", "functions-and-subprograms3\functions-and-subprograms3.csproj", "{548AB10D-9C17-4B15-B05E-AF470F5B537D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "functions-and-subprograms4", "functions-and-subprograms4\functions-and-subprograms4.csproj", "{AADA0654-A86A-459C-B2A4-E925C021B766}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{548AB10D-9C17-4B15-B05E-AF470F5B537D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{548AB10D-9C17-4B15-B05E-AF470F5B537D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{548AB10D-9C17-4B15-B05E-AF470F5B537D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AADA0654-A86A-459C-B2A4-E925C021B766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AADA0654-A86A-459C-B2A4-E925C021B766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AADA0654-A86A-459C-B2A4-E925C021B766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AADA0654-A86A-459C-B2A4-E925C021B766}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
