@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "strings4", "strings4\string
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "strings5", "strings5\strings5.csproj", "{CDC086A4-8CBE-4A91-9C7A-0CF8CC0FC8E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "object-oriented-programming1", "object-oriented-programming1\object-oriented-programming1.csproj", "{FD9596EF-8BCA-4876-87BC-3D134610B2CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{CDC086A4-8CBE-4A91-9C7A-0CF8CC0FC8E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDC086A4-8CBE-4A91-9C7A-0CF8CC0FC8E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDC086A4-8CBE-4A91-9C7A-0CF8CC0FC8E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD9596EF-8BCA-4876-87BC-3D134610B2CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD9596EF-8BCA-4876-87BC-3D134610B2CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD9596EF-8BCA-4876-87BC-3D134610B2CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD9596EF-8BCA-4876-87BC-3D134610B2CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
