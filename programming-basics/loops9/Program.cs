@@ -16,7 +16,7 @@ namespace loops9
             Console.Write("Montako kertaa haluat heittaa kolikkoa: ");
 
             // Store user input to a variable
-            string userInput = Console.ReadLine().ToString();
+            string userInput = Console.ReadLine();
 
             // Parse user input into integer. If user 
             int.TryParse(userInput, out int number);
@@ -24,42 +24,31 @@ namespace loops9
             // Loop through the number user input
             for (int x = 1; x <= number; x++)
             {
-
                 // Draw a random number between 0 and 1
                 a = rnd.Next(2);
 
                 // If the random number is 0...
                 if (a == 0)
                 {
-
                     // ...add one to the value of b which holds the number of crowns
                     b = b + 1;
-
                 }
                 else
                 {
-
                     // ...add one to the value of c which holds the number of tails
                     c = c + 1;
-
                 }
-
             }
 
-            // If number of crowns exceeds the number of tails...
+            // If number of heads exceeds the number of tails...
             if (b > c)
             {
-
                 // ...congratulate the user
                 vresult = "Onneksi olkoon!";
-
             } else
             {
-
                 // ...wish the user better luck next time
                 vresult = "Parempaa onnea ensi kerralla!";
-
-
             }
 
             // Print out the result
@@ -68,7 +57,6 @@ namespace loops9
             // Wait for any key to be pressed before exiting
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
-
         }
     }
 }

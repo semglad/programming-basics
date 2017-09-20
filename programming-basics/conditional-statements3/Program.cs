@@ -12,6 +12,7 @@ namespace conditional_statements
             string positivity = "default";
             string parity;
 
+
             // Store user input to a variable
             var userInput = Console.ReadLine();
             int number;
@@ -20,15 +21,11 @@ namespace conditional_statements
             // If user input is less than zero...
             if (number < 0)
             {
-
                 // ...inform user that the number is negative
                 positivity = "negative";
-
-
             }
             else if (number > 0) // If user input is greater than zero...
             {
-
                 // ...inform user that the number is positive
                 positivity = "positive";
 

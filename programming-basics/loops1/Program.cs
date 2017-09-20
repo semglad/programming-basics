@@ -11,7 +11,7 @@ namespace loops1
             Console.Write("Please input an integer: ");
 
             // Store user input to a variable
-            string userInput = Console.ReadLine().ToString();
+            string userInput = Console.ReadLine();
 
             // Parse user input into integer. If user 
             int.TryParse(userInput, out int number);

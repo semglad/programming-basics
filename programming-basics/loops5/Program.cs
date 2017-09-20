@@ -6,7 +6,6 @@ namespace loops5
     {
         static void Main(string[] args)
         {
-
             // Prompt user for input
             Console.Write("Please input an integer: ");
 
@@ -22,13 +21,11 @@ namespace loops5
             // If user input is a negative integer...
             if (number < 0)
             {
-
                 // Raise the flag indicating that the user input is a negative integer
                 negativeFlag = 1;
 
                 // Convert the user input to its absolute value so it doesn't interfere with the loop
                 number = number * -1;
-
             }
 
             // Declare variable to hold the result of each iteration
@@ -38,14 +35,11 @@ namespace loops5
             // Loop through all the numbers between 1 and user input
             for (int a = 1; a <= number; a++)
             {
-
                 // If the user input was a negative integer...
                 if (negativeFlag == 1)
                 {
-
                     // Convert a to its inverse value
                     a = a * -1;
-
                 }
 
                 // If a can be divided by two...
@@ -53,14 +47,11 @@ namespace loops5
                 {
                     // ...add number of iteration so far to the value of b
                     b = b + a;
-
                 }
                 else
                 {
-
                     // Else add number of iteration so far to the value of c
                     c = c + a;
-
                 }
 
                 // If the user input was a negative integer...
@@ -68,7 +59,6 @@ namespace loops5
                 {
                     // Convert a back to its absolute value so it doesn't interfere with the loop
                     a = a * -1;
-
                 }
             }
 
@@ -78,7 +68,6 @@ namespace loops5
             // Wait for any key to be pressed before exiting
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
-
         }
     }
 }

@@ -11,7 +11,7 @@ namespace loops1
             Console.Write("Please input an integer: ");
 
             // Store user input to a variable
-            string userInput = Console.ReadLine().ToString();
+            string userInput = Console.ReadLine();
 
             // Parse user input into integer. If user 
             int.TryParse(userInput, out int number);
@@ -20,12 +20,10 @@ namespace loops1
             int b = 0;
 
             // Loop through all the numbers between 1 and user input
-            for (int a = 1; a <= number; a++)
+            for (int i = 1; i <= number; i++)
             {
-
                 // Set b to the value of the sum of itself and the number of iterations so far
-                b = b + a;
-
+                b = b + i;
             }
 
             // Inform user of the result of the calculation

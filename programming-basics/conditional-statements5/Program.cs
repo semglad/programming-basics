@@ -18,7 +18,7 @@ namespace conditional_statements5
             double discountPercent2 = 0;
             double initialPrice = 16;
             double price;
-            int mtkFlag = 0;
+            int isMemberOfMTK = 0;
 
             // Parse user input into integer. If user 
             int.TryParse(userInput1, out int age);
@@ -30,7 +30,7 @@ namespace conditional_statements5
                 // ...set the discount percentage to 100 % and move on to price calculation
                 discountPercent = 1;
 
-            } else if (age < 16 | age > 64)
+            } else if (age < 16 || age > 64)
             {
                 // Else if age is between 7 and 15 or over 64, set the discount percentage to 50 % and move on to price calculation
                 discountPercent = 0.5;
@@ -51,7 +51,7 @@ namespace conditional_statements5
 
                     // ...set the discount percentage to 45 % and raise a flag for calculating a combined discount percentage with MTK membership
                     discountPercent = 0.15;
-                    mtkFlag = 1;
+                    isMemberOfMTK = 1;
 
                 }
 
@@ -65,7 +65,7 @@ namespace conditional_statements5
                 if (userInput.Key == ConsoleKey.K)
                 {
                     // ...and an MTK member
-                    if (mtkFlag == 1)
+                    if (isMemberOfMTK == 1)
                     {
 
                         // ...set the first discount percentage to 45 % and the second discount percentage to 15 %

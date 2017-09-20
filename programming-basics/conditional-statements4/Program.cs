@@ -18,9 +18,9 @@ namespace conditional_statements
             Console.WriteLine("Please input another integer:");
 
             // Store user input to a variable
-            var userInput2 = Console.ReadLine();
+            userInput = Console.ReadLine();
             int number2;
-            int.TryParse(userInput2, out number2);
+            int.TryParse(userInput, out number2);
 
             // Prompt user for an integer
             Console.WriteLine("Please input yet another integer:");
@@ -32,34 +32,22 @@ namespace conditional_statements
 
             if (number < number2)
             {
-
                 if (number2 < number3)
-                {
-
                     Console.WriteLine("{0}, {1}, {2}", number, number2, number3);
-
-                } else
+                else
                 {
-
                     if (number < number3)
                     {
-
                         Console.WriteLine("{0}, {1}, {2}", number, number3, number2);
-
-                    } else
-                    {
-
-                        Console.WriteLine("{0}, {1}, {2}", number3, number, number2);
-
                     }
-
-
+                    else
+                    {
+                        Console.WriteLine("{0}, {1}, {2}", number3, number, number2);
+                    }
                 }
-
-
-            } else
+            }
+            else
             {
-
                 if (number < number3)
                 {
 
@@ -68,14 +56,16 @@ namespace conditional_statements
 
                         Console.WriteLine("{0}, {1}, {2}", number2, number, number3);
 
-                    } else
+                    }
+                    else
                     {
 
                         Console.WriteLine("{0}, {1}, {2}", number3, number, number2);
 
                     }
 
-                } else
+                }
+                else
                 {
 
                     if (number2 < number3)
@@ -83,7 +73,8 @@ namespace conditional_statements
 
                         Console.WriteLine("{0}, {1}, {2}", number2, number3, number);
 
-                    } else
+                    }
+                    else
                     {
 
                         Console.WriteLine("{0}, {1}, {2}", number3, number2, number);
